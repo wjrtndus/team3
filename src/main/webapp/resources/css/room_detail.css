@@ -1,0 +1,171 @@
+
+
+.ex { 
+      width: 100%;
+      height: 600px; 
+      box-sizing: border-box; 
+      overflow: hidden;
+      margin-top: 30px;
+    }
+
+.ex img {
+    width: 100%;
+}
+
+.photo {  
+         width: 100%; 
+         padding: 40px;
+         box-sizing: border-box;
+         margin: 30px 0;
+         background-color: rgb(241 241 241);
+         float: left;
+        }
+
+.map { 
+       height: 250px; 
+       width: 45%; 
+       margin: 10px 0 0 0;
+       background-color: turquoise; }
+
+.map img {
+    height: 250px;
+    width: 100%;
+}
+
+.address { margin: 10px 0 0 0 }
+
+/* 큰섹션 */
+.second_section { float: left;
+                  width: 100%;
+                  box-sizing: border-box;
+                  }
+
+.icon_section { width: 100%;
+                box-sizing: border-box;
+                float: left;
+                margin: 20px 0;
+                border-top:  1px solid #998d9285;
+                border-bottom: 1px solid #998d9285; 
+                }
+
+.last_section { 
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    margin: 40px 0;
+}
+
+.last_section .title{
+    margin-bottom: 30px;
+}
+
+/* 지도, 주변명소 */
+
+.where { 
+    float: left; 
+    width: 550px;
+    margin-right: 100px;
+    box-sizing: border-box;
+}
+
+.place { 
+    float: left;
+    width: 550px;
+    box-sizing: border-box;
+}
+
+.map { 
+    width: 100%;
+    float: left; }
+
+.address { float: left;
+           padding: 15px 0; 
+            font-size: 18px;
+        }
+
+.comments { padding: 10px 0 10px 0; }
+
+.comments li { padding: 10px 0 10px 0; }
+
+/* 아이콘 */
+
+.img {
+    float: left;
+    width: 60px;
+}
+
+.icon li { 
+    float: left; 
+    margin: 15px 10px;
+}
+
+/* 객실 */
+
+.roomtype {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 50px 50px 50px;
+    background-color: rgb(241 241 241);
+    margin-bottom: 50px;
+}
+
+.room_img {
+    float: left;
+    width: 570px;
+    height: 350px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.room_img img {
+    height: 370px;
+    width: 100%;
+}
+
+.roomtype_detail {
+    float: left;
+    width: 530px;
+    height: 350px;
+    box-sizing: border-box;
+    padding: 0 0 0 30px;
+}
+
+.roomtype_bed {
+    padding-top: 50px;
+}
+
+.roomtype_simbol {
+    padding-bottom: 160px;
+}
+
+.reservation {
+    float: left;
+    box-sizing: border-box;   
+}
+
+.price {
+    margin: 13px 0;
+    float: left;
+}
+
+.booking_btn {
+    float: right;
+    padding-left: 270px;
+}
+
+#yeahyak_btn {
+    width: 120px;
+}
+
+/* 여기서 부터 수정입니다. */
+
+.rm-dt-title{
+    font-size: 30px;
+}
+
+.icon-name{
+    text-align: center;
+    float: left;
+    line-height: 42.85px;
+}

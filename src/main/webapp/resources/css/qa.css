@@ -1,0 +1,164 @@
+.section{
+    padding: 100px 0 200px 0 !important;
+}
+
+.rv-right{
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+.qa-btn-wrap{
+    width: 100%;
+    height: 50px;
+    float: left;
+    border-bottom: 1px solid lightgray;
+}
+
+.qa-btn-wrap li{
+    width: 20%;
+    height: 49.5px;
+    line-height: 30px;
+    float: left;
+    padding: 10px 10px;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.qa-content-wrap{
+    width: 100%;
+    float: left;
+}
+
+.qa-content-wrap li{
+    width: 100%;
+    float: left;
+    padding: 10px 10px;
+    margin-bottom: 1px solid lightgray;
+    box-sizing: border-box;
+}
+
+.qa_category, .qa_inquiry{
+	width: 49.5% !important;
+	
+}
+
+.qa-new li h3{
+    margin-bottom: 10px;
+}
+
+.qa-new li .text01{
+    font-size: 18px;
+}
+
+/* ************* */
+
+.qa-con-on{
+    display: block;
+}
+
+.qa-con-none{
+    display: none;
+}
+
+/* ************* */
+
+
+.qa-content{
+    width: 100%;
+    float: left;
+}
+
+.qa-content a{
+    display: block;
+}
+
+.qa-content a h3{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.rv-on{
+    display: none;
+}
+
+.on{
+    display: block;
+}
+
+.notis-title{
+    float: left;
+    line-height: 45px;
+    margin-right: 20px;
+}
+
+.notis-write input{
+    height: 300px;
+}
+
+.qa-write-on{
+    display: block;
+}
+
+.qa-write-wrap2{
+    display: none;
+}
+
+#write-btn{
+	float:right;
+}
+
+
+/* 210402 */
+
+/* .qa-write, .qa-write-null{
+	display: none;
+}
+ */
+ 
+.myqa-title, .myqa-date, .myqa-content, .qa-comment-wrap, .qa-comment, .qa-comment-write{
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.myqa-list-sub{
+    padding: 20px 10px;
+    display: none;
+}
+
+.myqa-title{
+    margin-bottom: 10px;
+}
+
+.myqa-date{
+    margin-bottom: 30px;
+}
+
+.myqa-date span{
+    float: left;
+    margin-right: 10px;
+}
+
+.qa-comment-wrap{
+    padding: 10px 10px;
+    margin-top: 50px;    
+    background: rgb(245 245 245);
+}
+
+.myqa-writer{
+    margin-bottom: 5px;
+}
+
+.qa-comment-write textarea{
+    height: 100px;
+}
+
+.qa-comment-write input{
+    float: right;
+}
+
+.questions{
+	height: 200px !important;
+}

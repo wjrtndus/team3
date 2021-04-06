@@ -1,0 +1,111 @@
+
+.wrap{
+    height: 100%;
+    background-color: rgb(204, 204, 204);
+}
+
+/* rv-left */
+.rv-left{
+    width: 20%;
+    float: left;
+    background-color: white;
+    margin-right: 5%;
+}
+
+.rv-left ul{
+    width: 100%;
+    float: left;
+}
+
+.rv-left ul li{
+    width: 100%;
+    float: left;
+    padding: 15px 10px;
+    box-sizing: border-box;
+}
+
+/* rv-right */
+.rv-right{
+    width: 75%;
+    float: left;
+    background: white;
+}
+
+.rv-right-content{
+    width: 100%;
+    float: left;
+    background-color: white;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.rv-right-header{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    box-sizing: border-box;
+}
+
+.rv-right-header .left{
+    width: auto;
+    float: left;
+}
+
+
+.rv-right-header .right{
+    width: auto;
+    float: right;
+}
+
+.rv-right-header span{
+    width: auto;
+    float: left;
+    padding: 0 10px 20px 10px;
+}
+
+.rv-right-header span:nth-child(1){
+    padding-left: 0;
+}
+
+.rv-right .content{
+    width: 100%;
+    float: left;
+}
+
+.content li{
+    padding: 30px 0;
+}
+
+.content li:last-child{
+    padding-bottom: 0;
+}
+
+.content li h1{
+    float: left;
+}
+
+.content li h1:last-child{
+    float: right;
+}
+
+.content li span{
+    padding: 0 30px;
+}
+
+.content li span:nth-child(1){
+    padding: 0;
+    border: 0;
+}
+
+.content li span{
+    border-left: 2px solid rgb(230, 230, 230);
+}
+
+.content li span:nth-child(2){
+    border-left: 0;
+}
+
+
+
+
+

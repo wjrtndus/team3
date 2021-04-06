@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC 
+		"-//mybatis.org//DTD Mapper 3.0//EN" 
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+		
+<mapper namespace="com.itbank.shallwego.BoardDAO">
+<!-- insert, update, delete 는 반환형이 int로 고정이므로, resultType을 작성하지 않는다 -->
+	
+	
+	<!-- 문의 작성하기 -->
+	<insert id="insertQa" parameterType="bb">
+		<!-- 준혁아 왜 테이블 뒤에 컬럼안써?ㅜㅜ  -->
+		insert into inquiry 
+			values(
+				INQUIRY_SEQ.nextval, #{customer_idx}, <!-- 맴버 index -->
+				#{ic_idx}, #{accomm_type}			  <!-- 카테고리, 문의유형 -->
+				#{inquiry_title}, #{inquiry_content}, <!-- 게시글 제목, 게시글 내 --> 
+				sysdate, 0, null, null, null		
+			);
+	</insert>
+	
+	<!-- 내 1:1문의 들고오기 -->
+	<select id="selectInquiryList" parameterType="bb" resultType="bb">
+ 		select * from inquiry
+ 			where customer_idx = #{customer_idx}
+	</select>
+
+</mapper>
+
+
+
+
+

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>떠나볼까?</title>
+
+    <link href="css/main.css" rel="stylesheet" type="text/css"> 
+    <link href="css/index.css" rel="stylesheet" type="text/css"> 
+    <link href="css/header.css" rel="stylesheet" type="text/css"> 
+    <link href="css/search.css" rel="stylesheet" type="text/css"> 
+    <link href="css/index-room.css" rel="stylesheet" type="text/css"> 
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery.transit.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/index-room.js"></script>
+
+</head>
+<body>
+
+    <div class="wrap">
+        
+        <header>
+            <div class="header-in">
+                <div class="logo"><a href="index.html"><img src="img/logo.png"/></a></div>
+                <ul class="menu">
+                    <li class="customer-btn">
+                        고객센터 ▾
+                        <ul class="customer">
+                            <li class="announ"><a href="qa">공지사항</a></li>
+                            <li class="faq"><a href="qa">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li class="rv-btn"><a href="reservation.html">내 예약정보</a></li>
+                    <li class="join-btn"><a href="join.html">회원가입</a></li>
+                    <li class="login-btn"><a href="login.html">로그인</a></li>
+                    <li class="profile-btn">
+                        <span class="profile-img">
+                            <img src="img/hayoon.jpg"/>
+                        </span>
+
+                        <ul class="profile">
+
+                            <li class="coupon"><a href="">
+                                <span class="cp1">쿠폰</span>
+                                <span class="cp2 pink-f">0개 &gt;</span>
+                            </a></li>
+                            <li class="logout"><a href="">로그아웃</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="wrap-in back-white">
+
+            
+
+            <section class="section">
+                <div class="section-in-room">
+
+                    <section class="sec-room1">
+                        <div class="section-in2">
+
+
+                        <!-- search box -->
+                        <ul class="search-box-wrap">
+                            <li class="search-box">
+                                <span class="search-icon glasses"></span>
+                                <p><input type="text" placeholder="목적지 또는 호텔명"/></p>
+                            </li>
+        
+                            <li class="search-box">
+                                <span class="search-icon calendar">
+                                </span>
+                                <span class="check">
+                                    <p>체크인</p>
+                                    <h3>1월 1일</h3>
+                                </span>
+                                <span class="check">
+                                    <h3>4박</h3>
+                                </span>
+                                <span class="check">
+                                    <p>체크인</p>
+                                    <h3>1월 1일</h3>
+                                </span>
+                            </li>
+                            
+                            <li class="search-box">
+                                <span class="search-icon people">
+                                </span>
+                                <span class="check2">
+                                    <p>객실/인원</p>
+                                    <h3>객실1, 인원2</h3>
+                                </span>
+                            </li>
+        
+                            <li class="search-box pink">
+                                <button class="search-btn pink">
+                                    <span class="search-icon glasses2"></span>
+                                </button>
+                            </li>
+        
+                        </ul>
+                    </div>
+                    </section>
+
+                    <div class="filter-top">
+                        <ul class="img_wrap">
+                            <li><img src="img/slide1.png"/></li>
+                            <li><img src="img/slide2.png"/></li>
+                            <li><img src="img/slide3.png"/></li>
+                        </ul>
+
+                        <div class="slide-btn">
+                            <img class="left" src="img/left.png">
+                            <img class="right" src="img/right.png">
+                        </div>
+                    </div>
+
+
+
+                    <div class="filter-left">
+                        <ul class="ft-choice">
+                            <li>
+                                <b>1박요금</b>
+                                <p class="checks etrans">
+                                    <input id="cb1" type="checkbox"/> 
+                                    <label for="cb1">0 ~ 100,000</label>
+                                </p>
+                                <p class="checks etrans">
+                                    <input class="cb1" type="checkbox"/> 
+                                    <label for="cb1">100,000 ~ 200,000</label>
+                                </p>
+                                <p class="checks etrans">
+                                    <input class="cb1" type="checkbox"/> 
+                                    <label for="cb1">200,000 ~ 300,000</label>
+                                </p>
+                                <p class="checks etrans">
+                                    <input class="cb1" type="checkbox"/> 
+                                    <label for="cb1">300,000 ~ 400,000</label>
+                                </p>
+                                <p class="checks etrans">
+                                    <input class="cb1" type="checkbox"/> 
+                                    <label for="cb1">400,000 이상</label>
+                                </p>
+                            </li>
+                            <li>
+                                <b>숙박시설 및 등급</b>
+                                <p class="checks etrans">
+                                    <input class="cb1" type="checkbox"/> 
+                                    <label for="cb1">5성급</label>
+                                </p>
+                                <p class="checks etrans">
+                                    <input class="cb1" type="checkbox"/> 
+                                    <label for="cb1">4성급</label>
+                                </p>
+                                <p class="checks etrans">
+                                    <input class="cb1" type="checkbox"/> 
+                                    <label for="cb1">3성급</label>
+                                </p>
+                                <p class="checks etrans">
+                                    <input class="cb1" type="checkbox"/> 
+                                    <label for="cb1">2성급</label>
+                                </p>
+                                <p class="checks etrans">
+                                    <input class="cb1" type="checkbox"/> 
+                                    <label for="cb1">1성급</label>
+                                </p>
+                            </li>
+                            <li>
+                                <b>평점</b>
+                                <p class="checks etrans yellow-f">
+                                    <input class="cb1" type="checkbox"/> 
+                                    <label for="cb1">★★★★★</label>
+                                </p>
+                                <p class="checks etrans yellow-f">
+                                    <input class="cb1" type="checkbox"/> 
+                                    <label for="cb1">★★★★☆</label>
+                                </p>
+                                <p class="checks etrans yellow-f">
+                                    <input class="cb1" type="checkbox"/> 
+                                    <label for="cb1">★★★☆☆</label>
+                                </p>
+                                <p class="checks etrans yellow-f">
+                                    <input class="cb1" type="checkbox"/> 
+                                    <label for="cb1">★★☆☆☆</label>
+                                </p>
+                                <p class="checks etrans yellow-f">
+                                    <input class="cb1" type="checkbox"/> 
+                                    <label for="cb1">★☆☆☆☆</label>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <div class="filter-right">
+                        <div class="ft-header">
+                            <h2>서울</h2>
+                            <ul class="ft-btn-wrap">
+                                <li><button class="on-pink">
+                                    <a href="">
+                                    <h3>전체</h3>
+                                    <p>All</p>
+                                </a></button></li>
+                                <li><button>
+                                    <a href="">
+                                    <h3>호텔</h3>
+                                    <p>Hotel</p>
+                              </a>  </button></li>
+                                <li><button>
+                                    <a href="">
+                                    <h3>모텔</h3>
+                                    <p>Motel</p>
+                              </a>  </button></li>
+                                <li><button>
+                                    <a href="">
+                                    <h3>펜션</h3>
+                                    <p>Pension</p>
+                              </a>  </button></li>
+                                <li><button>
+                                    <a href="">
+                                    <h3>게스트하우스</h3>
+                                    <p>Guest House</p>
+                                    </a>
+                                </button></li>
+                            </ul>
+                        </div>
+
+                    <!-- 객실타입 -->
+                        <div class="ft-right-center">
+                            <ul class="lodging">
+                                <li>
+                                    <a href="">
+                                        <img src="img/4.JPG" alt=""/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <h2>신라호텔</h2>
+                                    <p>
+                                        <span class=" yellow-f">★★★★★</span> 4.4 (5,403)
+                                    </p>
+                                </li>
+                                <li class="lodging-price">
+                                    대실 3시간 <span>20,000</span>원
+                                </li>
+                                <li class="lodging-price">
+                                    숙박 16:00부터 <span>45,000</span>원
+                                </li>
+                                <li class="lodging-btn">
+                                    <button class="btn01 pink">예약</button>
+                                </li>
+                                <li class="address">부산광역시 수영구 광안동 95-3번지</li>
+                            </ul>
+
+                            <ul class="lodging">
+                                <li>
+                                    <a href="">
+                                        <img src="img/4.JPG" alt=""/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <h2>신라호텔</h2>
+                                    <p>
+                                        <span class=" yellow-f">★★★★★</span> 4.4 (5,403)
+                                    </p>
+                                </li>
+                                <li class="lodging-price">
+                                    대실 3시간 <span>20,000</span>원
+                                </li>
+                                <li class="lodging-price">
+                                    숙박 16:00부터 <span>45,000</span>원
+                                </li>
+                                <li class="lodging-btn">
+                                    <button class="btn01 pink">예약</button>
+                                </li>
+                                <li class="address">부산광역시 수영구 광안동 95-3번지</li>
+                            </ul>
+
+                            <ul class="lodging">
+                                <li>
+                                    <a href="">
+                                        <img src="img/4.JPG" alt=""/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <h2>신라호텔</h2>
+                                    <p>
+                                        <span class=" yellow-f">★★★★★</span> 4.4 (5,403)
+                                    </p>
+                                </li>
+                                <li class="lodging-price">
+                                    대실 3시간 <span>20,000</span>원
+                                </li>
+                                <li class="lodging-price">
+                                    숙박 16:00부터 <span>45,000</span>원
+                                </li>
+                                <li class="lodging-btn">
+                                    <button class="btn01 pink">예약</button>
+                                </li>
+                                <li class="address">부산광역시 수영구 광안동 95-3번지</li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        
+        </div>
+    </div>
+    
+</body>
+</html>

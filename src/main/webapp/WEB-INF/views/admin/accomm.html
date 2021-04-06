@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel입력창</title>
+    <link href="css/accomm.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<!-- 이름, 숫자로 호텔 모텔 구분, 호텔이미지 넣는 칸, 주소, 체크인 체크아웃 시간, 체크박스들(숙소소개, 편의시설, 이용안내, 예약공지, 이벤트/공지사항) -->
+    
+<!-- 위의 값들을 입력해서 return 1 이 오면 방들 정보 입력하는 페이지 띄워주기 -->    
+
+<div class="wrap">
+    <div class="wrap-in">
+        <form>
+            <div class="insert_div_daddy">
+                <div class="insert_div">
+                    <div class="insert_div_space1">NUMBER</div>
+                    <div class="insert_div_space2">
+                        <input class="insert_design" type="number" name="" autofocus required>
+                    </div>
+                </div>
+                <div class="insert_div">
+                    <div class="insert_div_space1">숙소 이름</div>
+                    <div class="insert_div_space2">
+                        <input class="insert_design" type="text" name="" required>
+                    </div>
+                </div>
+                <div class="insert_div">
+                    <div class="insert_div_space1">숙소 주소</div>
+                    <div class="insert_div_space2">
+                        <input class="insert_long insert_design" type="text" name="" required>
+                    </div>
+                </div>
+                <div class="insert_div">
+                    <div class="insert_div_space1">체크인 시간</div>
+                    <div class="insert_div_space2">
+                        <input class="insert_design" type="date" name="" required>
+                    </div>
+                </div>
+                <div class="insert_div">
+                    <div class="insert_div_space1">체크아웃 시간</div>
+                    <div class="insert_div_space2">
+                        <input class="insert_design" type="date" name="" required>
+                    </div>
+                </div>
+                
+                <!-- 여기까지는 무조건 입력해야 하는 값 -->
+                
+                <!-- 편의시설 name, img -->
+                <div class="insert_div1">
+                    <div class="insert_div_space1">숙소소개</div>
+                    <div class="insert_div_space2">
+                        <textarea class="insert_textarea" cols="40" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="insert_div">
+                    <div class="insert_div_space1">숙소 대표사진</div> <!-- 메인 이미지랑 숙소 별 이미지 생각 -->
+                    <div class="insert_div_space2">
+                        <input class="insert_design" type="file" name="">
+                    </div>
+                </div>
+                <div class="insert_div2">
+                    <div class="insert_div_space1">편의 시설들</div>
+                    <div class="insert_div_space2">
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/wifi.png"></label>                
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/car.png"></label>                
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/smokingNo.png"></label>         
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/smoking.png"></label>         
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/fitness.png"></label>         
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/swim.png"></label><br>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/medicine.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/city.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/sunny.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/mountain.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/pc.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/ocean.png"></label><br>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/super.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/moring.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/twin.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/double.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/movie.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/party.png"></label><br>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/sing.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/gamming.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/restorang.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/pickup.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/playground.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/teras.png"></label><br>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/rivingroom.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/puppy.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/bock.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/bicycle.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/teras.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/kitchen.png"></label><br>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/gogi.png"></label>
+                        <label class="icon"><input type="checkbox" name="" value="items"><img class="icon_img" src="img/icon/spa.png"></label>
+                    </div>
+                </div>
+                <div class="insert_div1">
+                    <div class="insert_div_space1">이용안내</div>
+                    <div class="insert_div_space2">
+                        <textarea class="insert_textarea" cols="40" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="insert_div1">
+                    <div class="insert_div_space1">예약공지</div>
+                    <div class="insert_div_space2">
+                        <textarea class="insert_textarea" cols="40" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="insert_div">
+                    <div class="insert_div_space1">이벤트</div>
+                    <div class="insert_div_space2">
+                        <input class="insert_design" type="text" name="">
+                    </div>
+                </div>
+                <div class="insert_div">
+                    <div class="insert_div_space1">쿠폰</div>
+                    <div class="insert_div_space2">
+                        <input class="insert_design" type="text" name="">
+                    </div>
+                </div>
+
+                <!-- 버튼 -->
+                <div class="submit_div">
+                    <input type="submit" value="전송">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+    
+
+    
+
+</body>
+</html>
