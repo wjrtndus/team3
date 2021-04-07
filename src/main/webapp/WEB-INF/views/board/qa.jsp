@@ -24,7 +24,7 @@
 				<ul>
 					<li class="on-click rv-menu"><a href="#">공지사항</a></li>
 					<li class="rv-menu"><a href="#">이벤트</a></li>
-					<li class="rv-menu"><a href="#">1:1 문의</a></li>
+					<li id="qa-menu" class="rv-menu"><a href="#">1:1 문의</a></li>
 				</ul> 
 			</div>
 

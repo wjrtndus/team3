@@ -26,6 +26,16 @@
 	
 	<context:component-scan base-package="com.itbank.controller" />
 	
-	
+	<interceptors>
+		<interceptor>
+			<mapping path="/board/qa"/>
+			<mapping path="/member/memberInfo"/>
+			<mapping path="/reservation/booking"/>
+			<mapping path="/reservation/reservation"/>
+			
+			<beans:bean id="LoginInterceptor"
+						class="com.itbank.interceptor.LoginInterceptor" />
+		</interceptor>
+	</interceptors>
 	
 </beans:beans>

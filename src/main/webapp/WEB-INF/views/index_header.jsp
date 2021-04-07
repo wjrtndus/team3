@@ -21,7 +21,7 @@
                         </ul>
                     </li>
                     <!--  <li class="rv-btn"><a href="${cpath }/reservation/reservation">내 예약정보</a></li>-->
-                    <li class="rv-btn"><a href="${cpath }/${!empty login ? 'reservation/reservation' : 'member/login' }">내 예약정보</a></li>
+                    <li class="rv-btn"><a href="${cpath }/reservation/reservation">내 예약정보</a></li>
                     
                     <li class="join-btn"><a href="${cpath }/member/join">회원가입</a></li>
                    <!--  <li class="login-btn"><a href="${cpath }/member/login"> -->
@@ -36,7 +36,7 @@
 
                         <ul class="profile">
 
-                            <li class="coupon"><a href="${cpath }/${!empty login ? 'member/memberInfo' : 'member/login'}">
+                            <li class="coupon"><a href="${cpath }/member/memberInfo">
                                 <span class="cp1">쿠폰</span>
                                 <span class="cp2 pink-f">0개 &gt;</span>
                                 </a></li>

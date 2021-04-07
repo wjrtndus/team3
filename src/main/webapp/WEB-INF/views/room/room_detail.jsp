@@ -52,9 +52,8 @@
 			<!-- 호텔그림 메인 -->
 			<div class="photo">
 				<h1 class="rm-dt-title hotel_name">${acc_dto.accomm_name }</h1>
-				<!-- accomm_name 불러오기 -->
 				<c:if test="${acc_dto.accomm_type == 1 }">
-					<!-- home - accomm_type 1이면 (호텔이면) -->
+					<!-- ㄴ> accomm_type 1이면 (호텔이면) -->
 					<p>${acc_dto.tier_number }성</p>
 					<!-- 성급 불러오기 -->
 				</c:if>
@@ -70,7 +69,6 @@
 								src="http://192.168.0.184/shallwego/${acc_dto.accomm_type }/${acc_dto.accomm_name }/${i }">
 						</c:otherwise>
 					</c:choose>
-					<!-- home ㄴ>  DB에 파일명 그대로 올리도록 변경했으므로 ${i }뒤에 확장자 .jpg를 제거했음 -->
 				</c:forEach>
 				<!--                 </div> -->
 			</div>
@@ -122,24 +120,22 @@
 							<div>
 								<h1>${i.room_name }</h1>
 							</div>
-							<!-- room_name -->
-							<!--                         <div class="roomtype_eng"><h5>STANDARD</h5></div>    -->
+<!-- 							                        <div class="roomtype_eng"><h5>STANDARD</h5></div>    -->
 							<div class="roomtype_bed">
 								<span>최소 인원 : ${i.min_person }명</span><br>
-								<!-- min_person, max_person 침대 개수는 그냥 숙소 안내에다가-->
 								<span>최대 인원 : ${i.max_person }명</span>
 							</div>
-							<!--                         <div class="roomtype_simbol"> -->
-							<!--                             금연마크, 와이파이 마크                                    편의시설 아이콘으로 처리 -->
 						</div>
 						<div class="reservation">
 							<div class="price">
 								<h2>${i.cost_price }</h2>
 							</div>
 							<div class="booking_btn">
+								<a href="${cpath }/reservation/booking">
 								<button id="yeahyak_btn" class="btn01 pink">
 									<h2>예약</h2>
 								</button>
+								</a>
 							</div>
 						</div>
 					</div>
